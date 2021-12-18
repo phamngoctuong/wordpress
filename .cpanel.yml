@@ -3,3 +3,4 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/lzrioghz/public_html/
     - /bin/cp -R wp-content $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
