@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/lzrioghz/public_html/
-    - /bin/cp -rf * $DEPLOYPATH
+    - /bin/cp -R wp-content $DEPLOYPATH
